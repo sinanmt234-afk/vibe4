@@ -1,0 +1,5 @@
+-keepattributes *Annotation*
+-keepclassmembers class kotlinx.serialization.json.** { *; }
+-keepclassmembers class com.aurelia.music.data.model.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
